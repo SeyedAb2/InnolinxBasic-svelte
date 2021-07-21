@@ -1,3 +1,7 @@
+@import "css/fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -6,10 +10,55 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	font-family: 'BYekan';
 }
 
 body {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'BYekan';
+	
+}
+.nav-item{
+	padding: 0 1px;
+	font-size: 20px;
+}
+.li-item-color{
+	color: white;
+}
+.li-item-color:hover{
+	text-decoration: none;
+	color: gray;
+}
+.brand-icon{
+	width: 60px;
+}
+.navbar{
+	background: rgb(28,27,27);
+	background: linear-gradient(360deg, rgba(28,27,27,0.9528186274509804) 0%, rgba(6,0,0,0.958420868347339) 54%);
+	box-shadow: 0 10px 10px #242121;
+}
+.brand-icon-custome , .brand-icon-custome:hover{
+	text-decoration: none;
+	color: red;
+	font-size: 250%;
+	margin-top: -10px;
+	font-family: 'Bowlby One', cursive;
+	margin-top: 0.5%;
+	float: left;
+}
+
+@media (max-width:992px){
+	.brand-text{
+		position: absolute;
+		left: 15%;
+	}
+}
+.header-image{
+	background-image: url('header.jpg');
+	
+}
+.text-header-custom{
+	text-align: center;
+	color: white;
+
 }
