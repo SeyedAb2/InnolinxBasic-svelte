@@ -8,10 +8,20 @@
         bottom: 0;
         width: 100%;
         height: 270px;
+        
+        
     }
-    @media (max-width: 500px) {
+    
+
+@media (max-width:767px) {
     .footer {
-      height: 560px;
+      height: 570px;
+    }
+}
+
+@media (min-width: 767px) {
+    .footer {
+      height: 300px;
     }
 }
 
