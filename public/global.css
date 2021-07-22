@@ -13,6 +13,8 @@ html, body {
 	font-family: 'BYekan';
 	background: rgb(250,217,178);
 	background: linear-gradient(90deg, rgba(250,217,178,1) 0%, rgba(255,255,255,1) 50%, rgba(190,229,254,1) 100%);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -133,4 +135,18 @@ body {
 	transform: scale(1.09,1.09);
 	box-shadow: 0 0 10px gray;
 	opacity: 1;
+}
+.cust-raw{
+	
+}
+.picture-custom{
+	border-radius: 15px;
+	box-shadow: 0 0 10px gray;
+	cursor: pointer;
+	transition: all 0.35s;
+	
+}
+.picture-custom:hover{
+	transform: scale(1.1,1.1);
+	filter: blur(3px);
 }

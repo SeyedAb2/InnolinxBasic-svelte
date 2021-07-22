@@ -10,7 +10,7 @@
     
 </style>
 <Router url="{url}">
-    <header class="sticky-top shadow"> 
+    <header class="sticky-top shadow" style="position: fixed;right: 0;left: 0;"> 
         <nav class="navbar navbar-inverse navbar-toggleable-md ">
             <div class="container">
                <div style="width: 75%">
