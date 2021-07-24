@@ -1,6 +1,7 @@
 <script>
-
+    export let y;
 </script>
+<svelte:window bind:scrollY={y}/>
 <style>
     @import "./css/fonts.css";
     footer{
@@ -61,10 +62,10 @@ i{
 
 </style>
 
+{#if y>2600}
 <footer class="footer" style="font-family: 'BYekan' ;">
     <div class="container">
         <div class="row">
-            
             
             <div class="col-md-4">
                 <form style="direction: rtl;">
@@ -114,6 +115,8 @@ i{
                 </div>
                 
             </div>
+            
         </div>
     </div>
 </footer>
+{/if}

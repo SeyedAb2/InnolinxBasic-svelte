@@ -5,6 +5,7 @@
 	import blog from "../pages/blog.svelte";
     import home from "../pages/home.svelte";
 	export let url = "";
+    export let y;
 </script>
 <style>
     

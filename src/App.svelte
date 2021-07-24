@@ -2,7 +2,9 @@
 <script>
 	import Nav from "./layout/Nav.svelte";
 	import Footer from "./layout/Footer.svelte";
-	import {fade , slide , scale} from "svelte/transition";
+	import {fade , slide , scale , fly} from "svelte/transition";
+	let y=0;
+	$: console.log(y);	
 </script>
 
 
@@ -11,10 +13,11 @@
 	@import "/global.css";
 </style>
 
+<svelte:window bind:scrollY={y}/>
 
-<Nav />
-	
-<Footer />
+<Nav {y}/>
+
+<Footer {y}/>
 	
 	
 
