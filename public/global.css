@@ -28,6 +28,13 @@ background: linear-gradient(180deg, rgba(247,166,60,1) 33%, rgba(9,121,99,1) 48%
     background: transparent;
     margin-top: 10px;
 }
+/* ----Start Loading Settings --- */
+.wrapper{
+	margin: auto;
+	margin-top: 15%;
+}
+/* ----End Loading Settings --- */
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -173,3 +180,11 @@ body {
 	filter: blur(3px);
 }
 
+.loading-snipper{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	color: green;
+	direction: rtl;
+	text-align: center;
+}
